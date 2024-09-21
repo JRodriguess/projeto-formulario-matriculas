@@ -20,3 +20,17 @@
 --text: 400 1rem/1.5 var(--font-family-poppins);
 --text-sm: 400 0.875rem/1.4 var(--font-family-poppins);
 }
+
+body {
+  overflow: hidden;
+
+  font: var(--text);
+  color: var(--text-color-secondary);
+
+}
+h1, h2 {
+  color: var(--text-color-primary);
+}
+img {
+  max-width: 100%;
+}
